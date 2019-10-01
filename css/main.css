@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.house {
+    display: flex;
+    width: 700px;
+    height: 800px;
+    flex-direction: column;
+}
+
+.house__roof {
+    width: 0;
+    height: 0;
+}
+
+.house__wall {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: url(http://www.argo-oboi.com.ua/wp-content/uploads/2017/08/thumb_l_3472.jpg)
+}
+
+.wall__window {
+    width: 263px;
+    height: 281px;
+    align-self: center;
+
+}
+
+.wall__door {
+    width: 233px;
+    height: 498px;
+}
+
+.roof {
+    border-style: solid;
+    border-width: 0 350px 250px 350px;
+    border-color: transparent transparent brown transparent;
+}
